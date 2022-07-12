@@ -1,0 +1,280 @@
+* {
+    padding: 0px;
+    margin: 0 auto;
+    position: center;
+    min-width: 300px;
+    max-width: 100vh;
+    
+}
+.div-content {
+    position: relative;
+    display: block;
+    min-width: 10%;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+
+
+
+/* HEADER --> CAPA, LOGO E MENU */
+.content-menu {
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height: 170px;
+    min-width: 10%;
+    max-width: 100%;
+    height: 183px;
+    
+}
+
+.div-paper {
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height: 90px;
+    min-width: 10%;
+    max-width: 100%;
+}
+
+.paper {
+    position: relative;
+    display: block;
+    height: 90px;
+    padding: 0px;
+    margin: 0px;
+    min-width: 10%;
+    min-width: 90%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-menu-img-nome {
+    position: relative;
+    display: block;
+    height: 80.35px;
+    min-width: 10%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Logo e nome do restaurante*/
+
+.container-nome-img {
+    
+    position: relative;
+    display: block;
+    padding: 8px 12px 8px 12px;
+    height: 22.35px;
+    min-width: 10%;
+    max-width: 100%;
+    float: none;
+    
+}
+
+.content-nome-img {
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    min-width: 10%;
+    max-width: 100%;
+}
+
+.content-img {
+    display: flex;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-edit {
+    position: absolute;
+    max-width: 80px;
+    min-width: 80px;
+    top: -54px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: block;
+    border-bottom: 2px solid rgb(148, 141, 141);
+    box-sizing: border-box;
+    float: none;
+    z-index: -1;
+}
+
+.content-name {
+    position: relative;
+    display: block;
+    min-width: 10%;
+    max-width: 100%;
+}
+
+.name-edit {
+    position: relative;
+    display: block;
+    padding: 0px 0px 0px 92px;
+    max-width: 100%;
+    min-width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* fIM DO CONTARINER DAS DIVS DO HEADER*/
+
+
+/* DIV CONTENT DE PRODUTOS CADASTRADOS*/
+
+.container-produdos {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    min-width: 10%;
+    height: 100vh;
+    padding: 0px 12px 0px 12px;
+}
+
+/* ESTILOS DA IMAGEM */
+
+.content-produtos {
+    position: relative;
+    display: flex;
+    margin: 0px;
+    min-height: 91px;
+    max-height: 91px;
+    min-width: 10%;
+    max-width: 100%;
+    padding: 12px 0px 12px 0px;
+    border: 0.5px solid yellowgreen;
+
+}
+
+.container-img {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    min-width: 90px;
+    max-width: 100%;
+    min-height: 90px;
+    max-height: 90px;
+    margin: 0px 12px 0px 0px;
+}
+
+.imagem {
+    position: block;
+    min-width: 90px;
+    max-width: 90px;
+    min-height: 90px;
+    max-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.img {
+    position: block;
+    display: inline-block;
+    max-width: 90px;
+    min-width: 90px;
+    max-height: 90px;
+    min-height: 90px;
+    background-position: center;
+    background-size: cover;
+    float: none;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+.content-descricao {
+    position: relative;
+    border: 3px solid mediumpurple;
+    min-width: 10px;
+    max-width: 10px;
+    max-width: 100%;
+    min-height: 90px;
+    max-height: 90px;
+    display: inline-block;
+}
+
+.content-nome {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.nome {
+    display: inline-block;
+    position: static;
+    height: 16.8px;
+    width: 100%;
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0px;
+}
+
+.nome-produto {
+    display: flex;
+    cursor: pointer;
+    position: static;
+    margin: auto;
+    font-size: 16px!important;
+    line-height: 1.2 !important;
+    width: 100%;
+    height: 16.8px;
+}
+
+.content-preco {
+    position: relative;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    height: 21px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.preco {
+    display: flex;
+    position: static;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 1.2;
+    width: 100%;
+    height: 21px;
+
+
+}
+
+.span-preco {
+    display: inline-block;
+    position: relative;
+    float: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between!important;
+    color: #f51414;
+    height: 21px;
+    width: 100%;
+
+
+    
+}
+
